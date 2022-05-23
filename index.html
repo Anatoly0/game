@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Биография героев</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    </head>
+    <header>
+        <div id="menu">            
+            <a href="Jinx.html"title="Перейти на страницу(Джинкс)" style="color:black;">Джинкс &nbsp;</a>
+            <a href="why.html"title="Перейти на страницу (Вай)" style="color:black;">Вай &nbsp;</a> 
+            <a href="silko.html"title="Перейти на страницу (Силко)" style="color:black;"> Силко &nbsp;</a> 
+            <a href="Caitlin.html"title="Перейти на страницу (Кейтлин)" style="color:black;"> Кейтлин &nbsp;</a> 
+            <a href="Victor.html"title="Перейти на страницу (Виктор)" style="color:black;">Виктор &nbsp;</a>
+            <a href="Jace.html"title="Перейти на страницу (Джейс)" style="color:black;">Джейс &nbsp;</a>
+            <a href="sinjet.html"title="Перейти на страницу (Синджед)" style="color:black;">Синджед &nbsp;</a>
+        </div>
+    </header>
+    <body>
+        <div id="name">
+            <h1>
+                <p><b>Биография героев мультсериала Аркейн</b></p>
+            </h1>
+        </div>
+        <div id="content">
+            <p>На данном сайте вы сможите узнать историю нескольких героев известного Анимационного мультсериала 'Аркейн'. У каждого героя очень интересная история становления их в обществе, как например одному из героев по имени Джинкс жизнь далась не сладко, ведь потеря родителей дала начало психическому растройству... А все остольное про героя Джинкс вы уже сможете прочесть во вкладке 'Джинкс'</p>
+        </div>
+        <div id="image">
+            <img src="https://static.wikia.nocookie.net/leagueoflegends/images/8/8b/Piltover_Zaun_LoR_Background.jpg/revision/latest?cb=20191022172320" width="70%" height="auto">
+            <hr color="#47e2a7"> 
+        </div>
+        <div id="contacts">   
+            <a href="https://vk.com/id251753999"target="_blank"title="Перейти на страницу(VK)" style="color: rgb(0, 0, 0);">VK</a>&nbsp;
+            <a href="https://t.me/Anaatooly"target="_blank"title="Перейти на страницу(Telegram)" style="color: rgb(0, 0, 0);">Telegram</a>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+        $(document).on("scroll", function () {
+            if($(window).scrollTop() === 0)
+            $("header").removeClass("fixed");
+            else
+            $("header").attr("class", "fixed");
+        });
+        </script>
+    </body>
+</html>
